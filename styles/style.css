@@ -1,0 +1,33 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+	background: #ffffff;
+}
+header ul li{
+	list-style: none;
+	display: inline-flex;
+}
+#hour{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.post{
+	width: 85%;
+	margin: auto;
+	background: #ffffff;
+	padding: 10px;
+	box-shadow: 0 0 2.2em rgba(0,0,0,.3);
+	border-radius: 10px;
+	margin-bottom: 10px;
+	
+}
